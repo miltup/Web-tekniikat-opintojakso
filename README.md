@@ -1,15 +1,18 @@
 # Web-tekniikat-opintojakso
 Web-tekniikat opintojakson tehtävien koodit, Milla Tuppurainen, kevät 2022
 
-Tästä repositoriosta löytyy Web-tekniikat opintojakson palautettavia tehtäviä varten tehdyt koodit.
+This repository includes codes for the returnable task for Web-tekniikat-study Module in Oulu University of Applied Sciences.
 
-1. GitHub -tehtävä
-2. Bootstrap -tehtävä
-3. UI Design -tehtävä
-4. Advanced Javascript -tehtävä
-5. Advanced CSS -tehtävä
-6. Sivun julkaisu -tehtävä
+1. GitHub -task
+2. Bootstrap -task
+3. UI Design -task
+4. Advanced Javascript -task
+5. Advanced CSS -task
+6. Sivun julkaisu -task
 
-Päätin tehdä kaikki tehtävät yhden sivuston yhteyteen. Tein sivuston infosivu ajatuksella, aiheenani valtameret.
-Tekstien lähteenä on käytetty Wikipediaa ja sivuston kuvat on otettu Pixabaystä. 
-Sivuston koodien pohjana on käytetty Bootstrapin starter templatea.
+I did all of the tasks in one project. This project is made as an informatic page with the subject of oceans.
+Source for the texts is Wikipedia and the pictures are from Pixabay.
+
+CREATOR
+
+Milla Tuppurainen
