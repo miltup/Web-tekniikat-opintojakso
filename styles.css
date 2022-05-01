@@ -5,7 +5,7 @@ body {
 
 div#headerbox {
     height: 10em;
-    background-image: url(images/water-g1b6467872_1280.jpg);
+    background-image: url(images/waterdrops.jpg);
     background-repeat: no-repeat;
 }
 
@@ -20,7 +20,7 @@ header h1 {
 
 @font-face {
     font-family: myFirstFont;
-    src: url(C:\Users\milla\Desktop\Bootstrap\Fonts\DM_Serif_Display\DMSerifDisplay-Regular.ttf);
+    src: url(Fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
   }
 
 h1 {
@@ -29,8 +29,24 @@ h1 {
     padding: 10px;
 }
 
+#name {
+    color: #09BC8A;
+    font-size: x-large;
+}
+
+.btn {
+    background-color:#09BC8A;
+    border-color: #004336;
+}
+
 .col img {
     padding-bottom: 10px;
+}
+
+.weather {
+    font-weight: bold;
+    color:#004346;
+    border-bottom: 1px solid #004346;
 }
 
 footer {
