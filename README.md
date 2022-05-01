@@ -1,5 +1,5 @@
 # Web-tekniikat-opintojakso
-Web-tekniikat opintojakson tehtävien koodit, Milla Tuppurainen, kevät 2022
+Web-tekniikat-study module task codes, Milla Tuppurainen, spring 2022
 
 This repository includes codes for the returnable task for Web-tekniikat-study Module in Oulu University of Applied Sciences.
 
