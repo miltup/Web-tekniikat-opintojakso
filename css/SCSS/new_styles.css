@@ -1,4 +1,8 @@
 /* Milla Tuppurainen */
+@font-face {
+  font-family: myFirstFont;
+  src: url(../../Fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
+}
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   background-color: #172A3A;
@@ -10,8 +14,7 @@ body {
   background-image: url(../../Images/waterdrops.jpg);
   background-repeat: no-repeat;
 }
-
-header h1 {
+#headerbox header h1 {
   color: white;
 }
 
@@ -19,10 +22,6 @@ header h1 {
   border: 5px solid #508991;
 }
 
-@font-face {
-  font-family: myFirstFont;
-  src: url(../../Fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
-}
 h1 {
   font-family: myFirstFont;
   font-size: 3em;
@@ -34,37 +33,12 @@ h5 {
   color: #508991;
 }
 
-#name {
-  color: #09BC8A;
-  font-size: x-large;
-}
-
-.btn {
-  background-color: #09BC8A;
-  border-color: #75DDDD;
-}
-
 p {
   margin-bottom: 20px;
 }
 
-.accordion-body {
-  background-color: #172A3A;
-  color: white;
-}
-
-.accordion-button {
-  background-color: #508991;
-}
-
 [class*=col] > img {
   padding-bottom: 20px;
-}
-
-.weather {
-  font-weight: bold;
-  color: #75DDDD;
-  border-bottom: 1px solid #75DDDD;
 }
 
 footer {
@@ -75,14 +49,46 @@ footer {
   background-color: #004346;
   color: white;
 }
-
-footer > p > a {
+footer p {
+  padding-top: 10px;
+  font-size: 14px;
+}
+footer p a {
   text-decoration: none;
-  color: white;
   font-weight: bold;
+  color: white;
 }
 
-/*Use at least some of the following selectors in your CSS: +, [ ], ~.
-Use Less/Sass. You have to include at least one of the following: variables, mixins and operations.*/
+/*Index-page*/
+#name {
+  color: #09BC8A;
+  font-size: x-large;
+}
+
+.btn {
+  background-color: #09BC8A;
+  border-color: #75DDDD;
+}
+
+/*Atlantin valtameri-page*/
+.accordion-button {
+  background-color: #508991;
+}
+
+.accordion-body {
+  background-color: #172A3A;
+  color: white;
+}
+
+/*Intian valtameri-page*/
+.weather {
+  font-weight: bold;
+  color: #75DDDD;
+  border-bottom: 1px solid #75DDDD;
+}
+.weather a {
+  text-decoration: none;
+  color: white;
+}
 
 /*# sourceMappingURL=new_styles.css.map */

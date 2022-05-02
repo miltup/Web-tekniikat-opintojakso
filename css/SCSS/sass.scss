@@ -10,6 +10,11 @@ $warmblack-color: #004346;
     color: white;
   }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(../../Fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
+}
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     @include theme;
@@ -19,20 +24,14 @@ body {
     height: 10em;
     background-image: url(../../Images/waterdrops.jpg);
     background-repeat: no-repeat;
-}
-
-header h1 {
-    color: white;
+    header h1 {
+        color: white;
+    }
 }
 
 .navbar {
     border: 5px solid $steelteal-color;
 }
-
-@font-face {
-    font-family: myFirstFont;
-    src: url(../../Fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
-  }
 
 h1 {
     font-family: myFirstFont;
@@ -45,6 +44,33 @@ h5 {
     color: $steelteal-color;
 }
 
+p {
+    margin-bottom: 20px;
+}
+
+[class*=col] > img {
+    padding-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: $warmblack-color;
+    color: white;
+    p {
+        padding-top: 10px;
+        font-size: 14px;
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+    } 
+}
+
+/*Index-page*/
 #name {
     color: $mountainmeadow-color;
     font-size: x-large;
@@ -55,39 +81,22 @@ h5 {
     border-color: $mediumturquoise-color;
 }
 
-p {
-    margin-bottom: 20px;
+/*Atlantin valtameri-page*/
+.accordion-button {
+    background-color: $steelteal-color;
 }
 
 .accordion-body {
     @include theme;
 }
 
-.accordion-button {
-    background-color: $steelteal-color;
-}
-
-[class*=col] > img {
-    padding-bottom: 20px;
-}
-
+/*Intian valtameri-page*/
 .weather {
     font-weight: bold;
     color: $mediumturquoise-color;
     border-bottom: 1px solid $mediumturquoise-color;
+    a {
+        text-decoration: none;
+        color: white;
+    }
 }
-
-footer {
-    text-align: center;
-    border-top: 1px solid black;
-    padding: 10px;
-    margin-top: 10px;
-    background-color: $warmblack-color;
-    color: white;
-}
-
-footer > p > a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-} 
