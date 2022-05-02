@@ -7,7 +7,7 @@ body {
 
 #headerbox {
     height: 10em;
-    background-image: url(images/waterdrops.jpg);
+    background-image: url(../Images/waterdrops.jpg);
     background-repeat: no-repeat;
 }
 
@@ -22,7 +22,7 @@ header h1 {
 
 @font-face {
     font-family: myFirstFont;
-    src: url(Fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
+    src: url(../Fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
   }
 
 h1 {

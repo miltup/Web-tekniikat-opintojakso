@@ -1,12 +1,13 @@
 /* Milla Tuppurainen */
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #172A3A;
+  background-color: #172A3A;
+  color: white;
 }
 
 #headerbox {
   height: 10em;
-  background-image: url(images/waterdrops.jpg);
+  background-image: url(../../Images/waterdrops.jpg);
   background-repeat: no-repeat;
 }
 
@@ -15,18 +16,22 @@ header h1 {
 }
 
 .navbar {
-  border: 2px solid #004336;
-  background-color: #508991;
+  border: 5px solid #508991;
 }
 
 @font-face {
   font-family: myFirstFont;
-  src: url(Fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
+  src: url(../../Fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
 }
 h1 {
   font-family: myFirstFont;
   font-size: 3em;
   padding: 10px;
+  color: #508991;
+}
+
+h5 {
+  color: #508991;
 }
 
 #name {
@@ -36,17 +41,30 @@ h1 {
 
 .btn {
   background-color: #09BC8A;
-  border-color: #004336;
+  border-color: #75DDDD;
 }
 
-.col img {
-  padding-bottom: 10px;
+p {
+  margin-bottom: 20px;
+}
+
+.accordion-body {
+  background-color: #172A3A;
+  color: white;
+}
+
+.accordion-button {
+  background-color: #508991;
+}
+
+[class*=col] > img {
+  padding-bottom: 20px;
 }
 
 .weather {
   font-weight: bold;
-  color: #004346;
-  border-bottom: 1px solid #004346;
+  color: #75DDDD;
+  border-bottom: 1px solid #75DDDD;
 }
 
 footer {
@@ -54,7 +72,7 @@ footer {
   border-top: 1px solid black;
   padding: 10px;
   margin-top: 10px;
-  background-color: #004336;
+  background-color: #004346;
   color: white;
 }
 

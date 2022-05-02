@@ -1,13 +1,23 @@
 /* Milla Tuppurainen */
 
+$mountainmeadow-color: #09BC8A;
+$mediumturquoise-color: #75DDDD;
+$steelteal-color: #508991;
+$warmblack-color: #004346;
+
+@mixin theme($theme: #172A3A) {
+    background-color: $theme;
+    color: white;
+  }
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #172A3A;
+    @include theme;
 }
 
 #headerbox {
     height: 10em;
-    background-image: url(images/waterdrops.jpg);
+    background-image: url(../../Images/waterdrops.jpg);
     background-repeat: no-repeat;
 }
 
@@ -16,39 +26,55 @@ header h1 {
 }
 
 .navbar {
-    border: 2px solid #004336;
-    background-color: #508991;
+    border: 5px solid $steelteal-color;
 }
 
 @font-face {
     font-family: myFirstFont;
-    src: url(Fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
+    src: url(../../Fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
   }
 
 h1 {
     font-family: myFirstFont;
     font-size: 3em;
     padding: 10px;
+    color: $steelteal-color;
+}
+
+h5 {
+    color: $steelteal-color;
 }
 
 #name {
-    color: #09BC8A;
+    color: $mountainmeadow-color;
     font-size: x-large;
 }
 
 .btn {
-    background-color:#09BC8A;
-    border-color: #004336;
+    background-color: $mountainmeadow-color;
+    border-color: $mediumturquoise-color;
 }
 
-.col img {
-    padding-bottom: 10px;
+p {
+    margin-bottom: 20px;
+}
+
+.accordion-body {
+    @include theme;
+}
+
+.accordion-button {
+    background-color: $steelteal-color;
+}
+
+[class*=col] > img {
+    padding-bottom: 20px;
 }
 
 .weather {
     font-weight: bold;
-    color:#004346;
-    border-bottom: 1px solid #004346;
+    color: $mediumturquoise-color;
+    border-bottom: 1px solid $mediumturquoise-color;
 }
 
 footer {
@@ -56,7 +82,7 @@ footer {
     border-top: 1px solid black;
     padding: 10px;
     margin-top: 10px;
-    background-color: #004336;
+    background-color: $warmblack-color;
     color: white;
 }
 
@@ -65,6 +91,3 @@ footer > p > a {
     color: white;
     font-weight: bold;
 } 
-
-/*Use at least some of the following selectors in your CSS: +, [ ], ~.
-Use Less/Sass. You have to include at least one of the following: variables, mixins and operations.*/
